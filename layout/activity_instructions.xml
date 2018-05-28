@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/gamebg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                         飞机大战"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+
+    <TextView
+        android:id="@+id/textView_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过手指移动控制飞机向各个方向移动\n\n敌机分为小中大三个级别\n\n 越大的敌机抗击打能力越强，击落所得分数也越多\n\n 游戏中不定时掉落炸弹奖励和双发奖励\n\n 炸弹奖励双击屏幕触发，可以炸掉屏幕内所有敌机，可以累积\n\n 双发奖励立即触发并持续一段时间，不可以累积\n\n 当飞机与敌机相撞时游戏结束\n\n Good luck!"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+</LinearLayout>
