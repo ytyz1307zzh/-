@@ -361,7 +361,7 @@ public class GameView extends View {
         GameObject gameobject = null;
         int speed = 2;
 
-        int callTime = Math.round(frame / 30);
+        int callTime = Math.round(frame / frequency);
         if ((callTime + 1) % 25 == 0) {
 
             if ((callTime + 1) % 50 == 0) {
